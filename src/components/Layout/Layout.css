@@ -1,0 +1,22 @@
+/* Layout Container  */
+.Layout{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7a7e71;
+    font-size: 1.2rem;
+}
+
+/* Dropdown List */
+.PositionDropdown select{
+    padding:  0 0.5rem;
+    font-size: inherit;
+    background-color: inherit;
+    font-family: inherit;
+}
